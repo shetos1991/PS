@@ -52,7 +52,10 @@ const paths = {
       'assets/donate.png',
       'googlec4c2e36a49e62fa3.html',
       'images/*.*',
-      'fa.min.css'
+      'fa.min.css',
+      'shetos-theme.css',
+      'shetos-redesign.css',
+      'shetos-pro.css'
     ],
     svg: 'assets/**/*.svg'
   },

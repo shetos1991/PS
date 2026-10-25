@@ -1,0 +1,19 @@
+/* SHETOS PRO visual branding. Original HID and calibration logic left unchanged. */
+:root,[data-bs-theme="dark"] {--bs-body-bg:#070c14;--bs-border-color:#25354b;--bs-primary:#00cfff;--bs-link-color:#56ddff}
+body{background-color:#070c14!important;background-image:radial-gradient(ellipse at 45% -5%,rgba(0,210,255,.12),transparent 50%),linear-gradient(rgba(34,52,70,.20) 1px,transparent 1px),linear-gradient(90deg,rgba(34,52,70,.20) 1px,transparent 1px)!important;background-size:100% 100%,36px 36px,36px 36px!important}
+.navbar{border-bottom:1px solid #25435c!important}
+.navbar-brand{letter-spacing:2px!important;font-weight:900!important}
+.shetos-brand{background:linear-gradient(116deg,#101a29,#10223c)!important;border:1px solid #28536d!important;border-left:5px solid #00cfff!important;padding:25px 30px!important;box-shadow:0 15px 35px #0006!important;gap:22px!important}
+.shetos-identity h1{font-family:system-ui,sans-serif;font-size:clamp(38px,5.6vw,76px)!important;line-height:1.05;font-weight:950!important;letter-spacing:3px!important;color:white!important;text-shadow:0 0 28px #00d2ff33}
+.shetos-identity h1 span{color:#00d2ff!important}
+.shetos-identity p{font-weight:650;letter-spacing:1.2px;color:#9bbad1!important;margin-top:8px!important}
+.shetos-phone{font-size:clamp(19px,2.1vw,27px);font-weight:900;letter-spacing:1px;color:#fff;margin-top:10px}
+.shetos-contact{background:#103c2b!important;border:1px solid #00e676!important;box-shadow:0 0 18px #00e67622!important;color:#aaffce!important;font-size:16px}
+#controller-content>.row>.col-md-6:first-child{border:1px solid #24627b!important}
+#controller-content>.row>.col-md-6:first-child>#controller-svg-container{background:radial-gradient(ellipse at center,#163d50,#081523 74%)!important;border:1px solid #28586e!important}
+#controller-svg-placeholder svg{filter:drop-shadow(0 15px 14px #0008)!important}
+#controller-content .card-header{color:#c9efff!important}
+#mainTabs .nav-link.active{background:#12445c!important;border-color:#19b2e2!important;box-shadow:inset 0 -2px #00d2ff!important}
+#onlinebar,#offlinebar{border-color:#236179!important}
+.shetos-footer a{color:#00d2ff!important}
+@media(max-width:650px){.shetos-brand{padding:18px!important}.shetos-contact{width:100%;justify-content:center}.shetos-identity h1{font-size:44px!important}}
