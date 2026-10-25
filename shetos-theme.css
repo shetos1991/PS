@@ -1,0 +1,25 @@
+/* Shetos visual theme. Intentionally does not alter event handlers, IDs, WebHID or calibration logic. */
+:root,[data-bs-theme="dark"]{--bs-primary:#38bdf8;--bs-link-color:#67d7ff;--bs-border-color:#304159;--bs-body-bg:#090f1b;--bs-body-color:#eaf4ff;--bs-secondary-bg:#122037;--bs-tertiary-bg:#101c2f;--bs-primary-rgb:56,189,248}
+body{background:radial-gradient(ellipse 90% 42% at 50% -12%,#21466b 0%,transparent 75%),#090f1b;color:#eaf4ff;font-family:system-ui,'Segoe UI',sans-serif}
+.navbar{background:#0c1729!important;border-bottom:1px solid #274261;padding:15px 0}
+.navbar-brand{font-weight:850;font-size:1.4rem;letter-spacing:.04em;color:#fff!important}
+.shetos-brand{background:linear-gradient(112deg,#102943,#112033 66%,#132439)!important;border:1px solid #2e6080!important;border-radius:18px!important;padding:24px 28px!important;box-shadow:0 10px 45px #0005!important}
+.shetos-brand h1{letter-spacing:.095em!important;text-transform:uppercase}.shetos-brand p{color:#a4bed4!important}
+.shetos-contact{border-radius:100px!important;box-shadow:0 3px 15px #16a34a44}
+#mainmenu{max-width:1260px}
+#mainTabs{border-bottom:1px solid #28425b;gap:8px;padding:0 5px 9px}
+#mainTabs .nav-link{border:1px solid #273f59;border-radius:12px!important;background:#122136;color:#c0d3e6;padding:12px 20px;font-weight:650}
+#mainTabs .nav-link.active{background:#17567d;color:#fff;border-color:#43b7ea;box-shadow:0 3px 15px #19a4df33}
+.card{background:#101d30;border:1px solid #2a425c;border-radius:16px!important;overflow:hidden;box-shadow:0 8px 26px #0002}
+.card-header{background:#15273e;border-bottom:1px solid #2b435c;font-weight:750;padding:14px 18px}
+.card-body{padding:19px}
+.btn{border-radius:10px;font-weight:650;padding-top:9px;padding-bottom:9px}
+.btn-primary{--bs-btn-bg:#1876ad;--bs-btn-border-color:#2493c8;--bs-btn-hover-bg:#158fc9;--bs-btn-hover-border-color:#39b6e9;--bs-btn-color:#fff}
+.btn-success{--bs-btn-bg:#157c56;--bs-btn-border-color:#239d72;--bs-btn-hover-bg:#159a69}
+.btn-danger{--bs-btn-bg:#712837;--bs-btn-border-color:#b3465a;--bs-btn-hover-bg:#9e364c}
+#controller-svg-container{border:1px solid #2b435d;border-radius:16px;padding:18px 8px;background:radial-gradient(ellipse at 50% 48%,#1c3449 0%,#101d30 73%);margin-top:8px;margin-bottom:14px}
+#controller-svg-container svg{filter:drop-shadow(0 14px 10px #0005)}
+#stickCanvas{max-width:100%}
+footer.fixed-bottom{background:#0d182a!important;border-top:1px solid #2a4058!important}
+.shetos-footer{background:#0a1322;padding:12px!important}
+@media(max-width:768px){.shetos-brand{padding:17px!important}#mainTabs .nav-link{padding:9px 12px}#controller-svg-container{padding:10px 3px}}
